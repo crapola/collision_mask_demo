@@ -4,7 +4,15 @@
 
 [node name="Main" type="Node2D"]
 
-[node name="Area2D" parent="." instance=ExtResource( 1 )]
+[node name="Info" type="Label" parent="."]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 733.0
+margin_bottom = 39.0
+text = "The boxes are Area2D's that can be dragged around. They become red when a collision is registered with another.
+"
+
+[node name="Area2D1" parent="." instance=ExtResource( 1 )]
 position = Vector2( 256, 128 )
 
 [node name="Area2D2" parent="." instance=ExtResource( 1 )]
@@ -15,11 +23,3 @@ position = Vector2( 256, 320 )
 
 [node name="Area2D4" parent="." instance=ExtResource( 1 )]
 position = Vector2( 448, 320 )
-
-[node name="Info" type="Label" parent="."]
-margin_left = 8.0
-margin_top = 8.0
-margin_right = 535.0
-margin_bottom = 39.0
-text = "The boxes are Area2D's that can be dragged around. They become red when a collision is registered with another.
-"

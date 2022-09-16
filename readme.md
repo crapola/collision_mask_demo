@@ -1,0 +1,1 @@
+Godot project made to get a sense of how the collision bitmasks interact.
