@@ -9,17 +9,17 @@ margin_left = 8.0
 margin_top = 8.0
 margin_right = 733.0
 margin_bottom = 39.0
-text = "The boxes are Area2D's that can be dragged around. They become red when a collision is registered with another.
+text = "The boxes are Area2D's that can be dragged around. They become red when a collision is registered.
 "
 
 [node name="Area2D1" parent="." instance=ExtResource( 1 )]
 position = Vector2( 256, 128 )
 
 [node name="Area2D2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 320, 224 )
+position = Vector2( 256, 192 )
 
 [node name="Area2D3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 256, 320 )
+position = Vector2( 256, 256 )
 
 [node name="Area2D4" parent="." instance=ExtResource( 1 )]
-position = Vector2( 448, 320 )
+position = Vector2( 256, 320 )
